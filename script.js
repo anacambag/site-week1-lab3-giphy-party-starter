@@ -1,5 +1,9 @@
 // Global Constants
 const apiKey = "MY_API_KEY"
+const searchForm = document.querySelector("#search-form")
+const searchInput = document.querySelector("#search-input")
+const searchButton = document.querySelector("#search-button")
+const gifContainer = document.querySelector(".gif-container")
 
 /**
  * Update the DOM to display results from the Giphy API query.
@@ -50,3 +54,5 @@ window.onload = function () {
   // YOUR CODE HERE
   // Add any event handlers here
 }
+
+
